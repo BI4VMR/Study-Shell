@@ -15,6 +15,10 @@ a="ABC"
 [ "$a" == "AAA" ]
 echo "[$?]"
 
+a=$(find "aaa")
+echo "$a"
+
+
 # a=12
 # let a+=4
 # echo "$a"
